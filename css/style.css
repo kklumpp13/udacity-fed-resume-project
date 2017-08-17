@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #44BBA4;
   line-height: 48px;
   display: inline;
 }
@@ -34,7 +34,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #177E89;
   line-height: 29px;
   padding: 10px;
 }
@@ -58,25 +58,22 @@ h3,
 h4,
 h5 {
   padding: 10px 5%;
-
 }
 
-
-.date-text {
+.date-text,
+.location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #4C5B5C;
   line-height: 16px;
+}
+
+.date-text {
   float: left;
 }
 
 .location-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999;
-  line-height: 16px;
   float: right;
-
 }
 
 p {
@@ -86,7 +83,7 @@ p {
 }
 
 a {
-  color: #1199c3;
+  color: #F76F8E;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -100,16 +97,20 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #44BBA4;
   display: none;
 }
 
-.orange {
-  background-color: #f5ae23;
+#online-h3 {
+  margin-top: 16px;
 }
 
-.orange-text {
-  color: #f5ae23;
+.teal {
+  background-color: #177E89;
+}
+
+.green-text {
+  color: #44BBA4;
 }
 
 .white-text {
@@ -127,7 +128,6 @@ a {
   background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
 #header {
   background-color: #484848;
 }
